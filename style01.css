@@ -1,0 +1,329 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+   
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+}
+.section-heading span{
+    color: rgb(4, 4, 161);
+    display: inline-block;
+    padding: 10px;
+    font-size: 35px;
+}
+/* /head section/ */
+.body-header{
+    height: 60vh;
+    width: 100%;
+    background-color: #363d7b;
+    /* background-image: url(surface-yellow-solid-rough-stained.jpg); */
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    
+}
+#name{
+    font-weight:bolder;
+}
+.body-header nav{
+    text-align: center;
+}
+.body-header nav a{
+    margin-right: 20px;
+    color: rgb(235, 201, 201);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding-top: 50px;
+}   
+#social-links a{
+    color: rgb(235, 201, 201);
+    
+}
+#social-links a i{
+    font-size: 30px;
+}
+.body-header nav a:hover{
+    color: rgb(246, 245, 251);
+    text-decoration: underline;
+    transition: color 0.3s , text-decoration 3s;
+}
+.body-header #name{
+    color: rgb(235, 201, 201);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 65px;
+    letter-spacing: 2px;
+    font-weight: 50px;
+    
+}
+.body-header #social-links{
+    text-align: center;
+    margin-top: -60px;
+}
+.body-header #social-links a i{
+   padding: 25px;
+   font-size: 45px;
+   margin-top: 15px;
+}
+
+/* /about section/ */
+#about{
+    height: auto;
+    width: 100%;
+}
+#about image{
+    height: 150%;
+    width: 150%;
+}
+#my-image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin-top: -150px;
+    box-shadow: 0px 0px 8px 5px rgb(184, 249, 245);
+}
+#about #about-content{
+    font-size: 19px;
+    color: rgb(75, 74, 74);
+    text-align:justify;
+    padding-left: 216px;
+    padding-right: 195px;
+    padding-top: 60px;
+}
+#about-content .alter{
+    color: rgb(6, 86, 123);
+}
+/* /skills section/ */
+.skills-display{
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 40px;
+    margin-top: 30px;
+    
+    border-radius: 8px;
+}
+.skill-progress{
+    height: 25px;
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 13px;
+}
+.skill-progress #cpp-progress{
+    height: 100%;
+    width: 80%;
+    border-radius:20px;
+    background-color: rgb(5, 86, 179);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #cpp-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #html-progress{
+    height: 100%;
+    width: 68%;
+    border-radius:20px;
+    background-color: rgb(241, 149, 9);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #html-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #css-progress{
+    height: 100%;
+    width: 58%;
+    border-radius:20px;
+    background-color:rgba(165, 42, 147, 0.463);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #css-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #js-progress{
+    height: 100%;
+    width: 28%;
+    border-radius:20px;
+    background-color:rgba(4, 58, 17, 0.733);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #js-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+.skill-progress #java-progress{
+    height: 100%;
+    width: 50%;
+    border-radius:20px;
+    background-color: rgba(165, 42, 147, 0.463);
+    color: white;
+    margin-top: -16px;
+}
+.skill-progress #java-progress p{
+    padding-top: 3px;
+    padding-left: 12px;
+    font-family:monospace;
+    font-size: large;
+}
+
+/* Contact Form */
+
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Common Margin Classes */
+
+.m0 {
+    margin: 0;
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.mb50px {
+    margin-bottom: 50px;
+}
